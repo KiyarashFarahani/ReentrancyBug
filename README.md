@@ -9,7 +9,7 @@ This repository demonstrates a reentrancy attack on a vulnerable smart contract.
 
 ## 📜 Contract Overview
 
-### 1. First.sol (Vulnerable Contract)
+### 1. Bank.sol (Vulnerable Contract)
 - Allows users to deposit and withdraw Ether.
 - **Bug:** Updates balances *after* transferring funds, making it vulnerable to reentrancy.
 
